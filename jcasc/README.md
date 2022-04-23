@@ -3,13 +3,13 @@
 ## Build
 
 ```bash
-docker build -t figaw/jcasc-basic:2.222.1-1.39 .
+docker build -t josefloressv/jcasc-basic:latest .
 ```
 
 ## Run
 
 ```bash
-docker run -p 8080:8080 figaw/jcasc-basic:2.222.1-1.39
+docker run -p 8080:8080 josefloressv/jcasc-basic:latest
 ```
 
 Congratulations you now have a basic Jenkins configured as code!
